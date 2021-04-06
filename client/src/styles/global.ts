@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --background: #FFFFFF;
     --asideBackground: #EDF1FA;
-    
+
     --currentBalance: #607FCF;
     --income: #0AC683;
     --outcome: #FD7369;
@@ -30,6 +30,15 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: var(---background);
     -webkit-font-smoothing: antialiased; // Browsers que usam webkit, as fonts ficam mais nitidas
+  }
+
+  body, input, textarea, button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 600;
   }
 
   button {
