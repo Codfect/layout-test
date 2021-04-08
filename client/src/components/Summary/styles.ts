@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
   max-width: 100%;
-  margin-top: 4rem;
+  margin-top: 2rem;
 
   div {
     header {
