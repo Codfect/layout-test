@@ -6,7 +6,7 @@ export const Container = styled.header`
 export const Content = styled.div`
   margin: 0 auto;
   padding: 2rem 0;
-  max-width: 1120px;
+  max-width: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,7 @@ export const Content = styled.div`
     li {
       list-style: none;
       display: inline-block;
-      margin-left: 3rem;
+      margin-right: 3rem;
     }
 
     a { 
