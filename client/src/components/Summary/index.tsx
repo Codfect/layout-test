@@ -14,14 +14,14 @@ export function Summary() {
         <header>
           <p>Income</p>
         </header>
-        <strong>$ 279,433.00</strong>
+        <strong className="colorTwo">$ 279,433.00</strong>
       </div>
 
       <div>
         <header>
           <p>Outcome</p>
         </header>
-        <strong>$ 154,712.40</strong>
+        <strong className="colorThree">$ 154,712.40</strong>
       </div>
     </Container>
   );
