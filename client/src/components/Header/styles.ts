@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-
 `;
 
 export const Content = styled.div`
   margin: 0 auto;
   padding: 2rem 0;
-  max-width: 1220px;
+  max-width: 1120px;
   display: flex;
   justify-content: space-between;
   align-items: center;

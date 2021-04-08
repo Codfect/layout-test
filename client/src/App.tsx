@@ -1,12 +1,12 @@
-import { AsideMenu } from "./components/AsideMenu";
+import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
     <>
-      <AsideMenu></AsideMenu>
-      <Header></Header>
+      <Header />
+      <Dashboard />
       <GlobalStyle />
     </>
   );
